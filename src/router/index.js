@@ -3,6 +3,7 @@ import HelloWorld from '../components/HelloWorld.vue'
 import Ref from '../components/Ref.vue'
 import Reactive  from '../components/Reactive.vue'
 import ToRefs from '../components/ToRefs.vue'
+import Method from '../components/Method.vue'
 
 const routes = [
   { 
@@ -24,6 +25,11 @@ const routes = [
     path: '/torefs', 
     component: ToRefs ,
     name:'torefs',
+  },
+  { 
+    path: '/method', 
+    component: Method,
+    name:'method',
   }
 ]
 
