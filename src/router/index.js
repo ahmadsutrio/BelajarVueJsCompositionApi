@@ -4,6 +4,7 @@ import Ref from '../components/Ref.vue'
 import Reactive  from '../components/Reactive.vue'
 import ToRefs from '../components/ToRefs.vue'
 import Method from '../components/Method.vue'
+import Computed from '../components/Computed.vue'
 
 const routes = [
   { 
@@ -30,6 +31,11 @@ const routes = [
     path: '/method', 
     component: Method,
     name:'method',
+  },
+  { 
+    path: '/computed', 
+    component: Computed,
+    name:'computed',
   }
 ]
 
