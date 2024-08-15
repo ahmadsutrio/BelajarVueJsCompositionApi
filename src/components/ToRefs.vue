@@ -20,6 +20,8 @@ console.log(name);
 </script>
 
 <template>
-{{ name }}
-{{ age }}
+   <br>
+   {{ name }} 
+   <br>
+   {{ age }}
 </template>

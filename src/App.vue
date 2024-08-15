@@ -9,6 +9,8 @@ import { RouterView,RouterLink } from "vue-router";
 <router-link :to="{name:'torefs'}">Day 4</router-link>
 <router-link :to="{name:'method'}">Day 5</router-link>
 <router-link :to="{name:'computed'}">Day 6</router-link>
+<router-link :to="{ name:'watcheffect'}">Day 7</router-link>
+<router-link :to="{ name:'watch'}">Day 8</router-link>
 
 <RouterView/>
 </template>

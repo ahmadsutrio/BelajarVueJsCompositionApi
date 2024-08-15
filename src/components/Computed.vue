@@ -1,9 +1,7 @@
 <script setup>
-import { version } from "vite";
 import { computed, ref,reactive } from "vue";
 const number = ref(0);
 const addNum = () => number.value++;
-console.log(addNum);
 const showNum = computed(() => `number: ${number.value} computed ${number.value+1}`);
 
 // setter dan getter
